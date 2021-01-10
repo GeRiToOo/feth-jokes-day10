@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(202, 182, 5, 0.705);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.container {
+    background-color: rgba(122, 1, 1, 0.801);
+    border-radius: 10px;
+    text-align: center;
+    padding: 3em;
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.75);
+    max-width: 100%;
+    width: 800px;
+}
+
+.container h3 {
+    font-size: 2em;
+    color: #fff;
+    margin: 0;
+    opacity: 0.9;
+    letter-spacing: 1.5px;
+}
+
+.joke {
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    line-height: 2em;
+    margin: 2em auto;
+    max-width: 600px;
+    height: 200px;
+    color: rgb(224, 221, 31);
+}
+
+.btn {
+    background-color: rgb(18, 126, 9);
+    border: none;
+    font-size: 1.2em;
+    border-radius:10px ;
+    color: rgba(255, 255, 255, 0.788);
+    padding:1em 3em;
+    -webkit-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    transition:0.5s ease;
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+
+.btn:focus{
+    outline: 0;
+}
