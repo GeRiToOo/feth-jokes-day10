@@ -1,8 +1,8 @@
 # Description 
 
-Project 9(HTML, CSS, JavaScript) from 50 small projects
+Project 10(HTML, CSS, JavaScript) from 50 small projects
 
-Little Farm, buttons with images that have animals sounds on click using HTML, CSS and Vanilla JavaScript.
+Fetching joke from dad jokes API using HTML, CSS and Vanilla JavaScript.
 
 # Demo
 
